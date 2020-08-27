@@ -63,6 +63,26 @@ namespace Knight.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap knight_down_1 {
+            get {
+                object obj = ResourceManager.GetObject("knight_down_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap knight_down_2 {
+            get {
+                object obj = ResourceManager.GetObject("knight_down_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap knight_left_1 {
             get {
                 object obj = ResourceManager.GetObject("knight_left_1", resourceCulture);
@@ -96,6 +116,26 @@ namespace Knight.Properties {
         internal static System.Drawing.Bitmap knight_right_2 {
             get {
                 object obj = ResourceManager.GetObject("knight_right_2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap knight_up_1 {
+            get {
+                object obj = ResourceManager.GetObject("knight_up_1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap knight_up_2 {
+            get {
+                object obj = ResourceManager.GetObject("knight_up_2", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

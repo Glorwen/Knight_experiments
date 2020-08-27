@@ -15,6 +15,7 @@ namespace Knight
         string direction = "right";
         int knightStep = 7;
         int horizontalVelocity = 0;
+        int verticalVelocity = 0;
 
         public Form1()
         {
@@ -41,6 +42,7 @@ namespace Knight
                 frameCounter = 1;
             }
             Knight.Left += horizontalVelocity;
+            Knight.Top += verticalVelocity;
         }
 
         private void Form1_KeyDown (object sender, KeyEventArgs e)
@@ -50,11 +52,25 @@ namespace Knight
                 case Keys.Right:
                     direction = "right";
                     horizontalVelocity = knightStep;
+                    verticalVelocity = 0;
                     break;
                
                 case Keys.Left:
                     direction = "left";
                     horizontalVelocity = -knightStep;
+                    verticalVelocity = 0;
+                    break;
+
+                case Keys.Down:
+                    direction = "down";
+                    verticalVelocity = knightStep;
+                    horizontalVelocity = 0;
+                    break;
+
+                case Keys.Up:
+                    direction = "up";
+                    verticalVelocity = -knightStep;
+                    horizontalVelocity = 0;
                     break;
                 
             }
